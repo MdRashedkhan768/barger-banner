@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    height: 100vh;
+    background-image: url('img/berger.jpg');
+    background-size: cover;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    position:relative;
+    top: 15px;
+}
+h1{
+    font-family: "Playwrite DK Uloopet", cursive;
+}
+.rrr{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.rrr, li{
+    list-style: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.rrr li:hover{
+    color: red;
+    cursor: pointer;
+}
+.aaa{
+    display: flex;
+    justify-content: center;
+  margin-right:0px;
+}
+.aaa i{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.aaa, button{
+margin-left: 10px;
+}
+.sss{
+    color: #ffff;
+    height: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.ppp{
+    width: 500px;
+    text-align: justify;
+}
+.active{
+    color: orangered;
+}
+.btn{
+    width: 150px;
+    padding: 10px;
+    background-color: darkorange;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.heading{
+    font-size: 40px;
+    color: rgb(229, 6, 6);
+    font-weight: 800;
+}
